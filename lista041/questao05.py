@@ -13,6 +13,6 @@ nota4 = float(input("Insira a quarta nota: "))
 media = (nota1 + nota2 + nota3 + nota4) / 4
 
 if(media >= 5):
-    print("Você foi APROVADO!")
+    print(f"Você foi APROVADO! Sua média foi {media}.")
 else:
-    print(f"Você foi REPROVADO e sua média foi {media}")
+    print(f"Você foi REPROVADO! Sua média foi {media}.")
