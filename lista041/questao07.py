@@ -3,4 +3,10 @@ Desenvolver um programa que pergunte um valor inteiro positivo ou negativo, e ex
 deste valor, ou seja, o número lido como sendo positivo.
 '''
 
-num1 = int(input("Informe um valor numérico positivo ou negativo: "))
+num = int(input("Informe um valor numérico positivo ou negativo: "))
+
+if(num > 0):
+    print(f"{num}")
+else:
+    num2 = num * -1
+    print(f"{num2}")
