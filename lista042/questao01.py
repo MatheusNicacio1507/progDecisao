@@ -8,8 +8,7 @@ num = int(input("Insira um número: "))
 if(num > 1000):
     print("O número está acima de 1000")
 
-else:
-    if (num < 1000):
+elif(num < 1000):
         print("O número está abaixo de 1000")
-    else:
-         print("O número é 1000")
+else:
+    print("O número é 1000")
